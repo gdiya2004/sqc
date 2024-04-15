@@ -1,0 +1,121 @@
+HHL(Harrow-Hassidim-Lloyd) algorithm: 
+*devised in 2009
+*shows how quauntum computers can outperform classical computers in trem sof solving linear equations.
+*solve systems of linear equations efficiently on quautum computer
+*Traditional classical systems for solving linear equations,such as Gaussian elimination or iterative methods, can be computationally expensive for larger systems.
+*provides significant speed up for solving certain types of linear eqns by leveraging quauntum computiing.
+*Practical example: 
+*Finance and need to optimize portfolio of investments.
+*we need to solve linear eqns to find optimal allocation of assets based on various constraints and objectives.
+Suppose u have large portfolio with hundreds and thousands of assets ,each with different risks and return characterstics.
+*Aim:to find optimal combo of these assets to maximise your return and minimize risk.
+in classical computing it may be computationally intensive,especially as size of portfolio grows.
+*in terms of computational speed and efficiency 
+                                    ###working:
+*Quauntum state Preparation:
+encode system of linear equations into quantum state using quatum state Preparation. Maps coefficients and variables of linear eqns onto quantum states of qubits.
+*Phase Estimation:
+quautum operation=phase estimation. allows quautum comp to estimate eigen values of matrix associated with linear eqns. eigen values-->solution of linear equations
+*Conditional Rotation:
+After obtaining eigen values, quautum algorithm applies conditional rotation to quautum states based on these eigen values. 
+encode info abt soln of linear eqns into amplitudes of quautum states.
+*Quantum Measureement:
+Finally quantum state is measured ,collapsing it into one of possible solution sof linear eqns.
+                                   ###limitations:
+It's important to note that the HHL algorithm is designed specifically for certain types of linear equations, such as those with sparse matrices (majority of elements are zero  and dense matrix means where most of elements are non-zero)or other special properties. 
+Additionally, implementing the HHL algorithm requires careful consideration of error correction and other quantum computing challenges to ensure accurate results.
+ ###How classical computers solve them?
+using variety of NUMERICAL METHODS depending on properties and size of system.
+1.Direct Methods:series of arithmetic operations. GAUSSIAN ELIMINATION
+2.Iterative Methods:approximate solution to system by iteratively improving initial guess. JACOBI METHOD:system split into diagonal and off-diagonal parts and iterative process is used to update solution until it converges to desired accuracy.
+3.Matrix Faactorization:factorize coefficient matrix into simpler that can be manipulated ore easily. EIGEN VALUE DECOMPOSITION and SINGULAER VALUE DECOMPOSITION can be used to decompose matrix into eigen vectorss and singular vectors which can be used  to find soln.
+4.Sparse Linear Solvers:dealing with large system with large matrices, specialised algorithms are used to take adv of this sparsity to reduce computational complexity.
+
+Classical computers                                  HHL algorithm
+1.Numerical methods                           1.Quauntum mechanics and quantum 
+                                                computation
+2.uses dense matrix                           2.Can handle sparse matrix more 
+representations,storing                         efficiently,exploiting inherent 
+all elements of matrix                           sparsity of quantum states.
+even if they are zero.
+3.computaion based on                         3. computation based on qubits
+algorithms operating on                         and quantum gates, allowing for 
+classical bits.                                  parallel computation and                         
+                                                 superposition
+4.require significant memory                  4.can potentially reduce memory
+for large systems due to                        reqquirements due to ability
+storage of dense matrices                       to represent and manipulate 
+                                                 quauntum states in more compact                
+                                                 form (sparse matrices)
+5.Time complexity can vary                   5. provide speedups for certain type
+from O(n^2) to O(n^3) for                    of linaer eqns
+dense matrices and much
+higher for larger systems
+6.Can achieve high accuracy                  6.provide accurate solutions,but 
+depending on method used                      they may be susceptible to
+and computational                            errors due to decoherence and other
+resources available.                       noise sources. Error mitigation techn
+                                            required to maintain soln.
+
+
+                 #### how quauntum computers handle sparse matrices efficiently?
+due to there ability to exploit quautum superposition and quauntum parallelism.
+
+QUAUTUM SUPERPOSITION: quautm systems to exists in multiple states simultaneously. in classiclal computers, a physical system exists in one particular stste at a time. eg:light can be either on or off.
+in quauntum, particles like  elctroms, protons and atoms can exists in multiple sttes until they are measured.
+SCHRODINGER's CAT that can be both  alive and dead simultaneously until observed.
+QUANTUM PARALLELISM: algorithms can process many possible outcomes simultaneously,allowing parallel computation and speedup.
+ENTANGLEMENT:allow qubits to become correlte even if not physically in contact. state of one qubit is dependent on stae of another.
+QUAUNTUM GATES: quautum algorithm manipulate qubits into logic gates(Same as classical gates)
+
+Ax=b A-->invertible n*n matrix and b-->n-dimensional matrix
+Q1 Explain motivation behind development of HHL Algorithm?
+*to address the problem of solving large system of linear equations efficiently which is computationally intensive task in classical computing.
+*solves sparse systems of linear equations, where coefficient matrix is sparse and structured.
+*exponential speed up
+
+Q2. key components of HHL algorithm and how they work together?
+*Quautum state preparation
+*HAmilton simulation:
+*phase estimation:
+*conditional rotation:
+*quautum measurement.
+
+Q3.potential applications of HHL in real world?
+*Machine Learning:linear regression,support vector machines,principal component analysis.
+*Finance:Portfolio Optimization,Risk assessment
+*Quauntum Chemistry:Simulating molecular structures and dynamics
+*Crytography:in designing quautum resistant cryptographic protocols,to break certain cryptographic schemes.
+Post Quauntum Crytography:many cryptographic problems rely on mathematical Problems that are believed hard to be solved by classical computers but could be vulnerable to attacks by quauntum computerts.Protocols are built that are resistant to quautum computers.
+*QKD: Quauntum key distribution: HHL has implications for QKD protocols. QKD protocols relyt on principles of quauntum mechanics to establish secure communication channels.
+
+Q4. Can we say HHL pose threat to classical computers?
+Yes does pose to certain crytographic schemes and computational problems that are considered secure against classical computers.
+****Post Quautum cryptography aims to developcrytographic protocols that are resistant to attacks by quautum computers. this is to build mathematical problems that are hard for both classical and quautum computers
+
+Q5. Challenges and limitations of HHL:
+*Hardware requirements:requires quautum computer with sufficient number of high quality qubits and low error rates to perform efficiently. 
+*involves complex quautum circuit with large number of gates, which may exceed the capabilities of current quauntum hardware in term sof gate counts and coherence times. 
+*Error Correction Techniches
+*Precision and accuracy are low with current computer hardware.
+
+Q6. what are advancements have been made to original HHL algorithm since its inception?
+*Development of new techniques:key components
+*hardware advancemnets:qubit coherence time, gate fidelities,qubit connectivity
+*error correction techniques:
+*Exploration of new applications including optimization, machine learning, finnace, quautum chemistry
+
+##Qubit Coherence Time:time over which qubit can maintain its quautum coherence.Time for how long qubit can maintain its delicate quautum state before it becomes susceptible to errors and decoherence, which can cause loss to quautum info.
+##Quautum Coherence:Property that allows a qubit to exist in superposition of states, enabling it it represent multiple values simultaneously.
+
+##gate fidelities:Accuracy and precision with which quautum gate performs a desired quautum operation.. it sees how closely actuaal operation performed by quautum gate matches intended operation.
+
+##qubit connectivity:ability of qubits tio interact and exchange info, communicate and Perform operations,
+##high qubit connectivity:any pair of qubits can directly interact , allowing multi qubit gates and entangling operations.
+
+
+
+
+
+
+
