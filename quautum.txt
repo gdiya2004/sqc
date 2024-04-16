@@ -5,12 +5,17 @@ HHL(Harrow-Hassidim-Lloyd) algorithm:
 *Traditional classical systems for solving linear equations,such as Gaussian elimination or iterative methods, can be computationally expensive for larger systems.
 *provides significant speed up for solving certain types of linear eqns by leveraging quauntum computiing.
 *Practical example: 
-*Finance and need to optimize portfolio of investments.
+*1.Finance and need to optimize portfolio of investments.
 *we need to solve linear eqns to find optimal allocation of assets based on various constraints and objectives.
 Suppose u have large portfolio with hundreds and thousands of assets ,each with different risks and return characterstics.
 *Aim:to find optimal combo of these assets to maximise your return and minimize risk.
 in classical computing it may be computationally intensive,especially as size of portfolio grows.
 *in terms of computational speed and efficiency 
+2.predicting weather:(agriculture).
+3.buying and selling stocks
+4.building bridges
+5.creating animations and games
+
                                     ###working:
 *Quauntum state Preparation:
 encode system of linear equations into quantum state using quatum state Preparation. Maps coefficients and variables of linear eqns onto quantum states of qubits.
@@ -57,7 +62,11 @@ and computational                            errors due to decoherence and other
 resources available.                       noise sources. Error mitigation techn
                                             required to maintain soln.
 
-
+###limitations:
+*solution vetcor is not yielded but prepares quauntum states that are proportional to the solution
+*entries of matrix are sparse
+entries of matrix should almost be of same size.
+preparation of input vector is very complicated
                  #### how quauntum computers handle sparse matrices efficiently?
 due to there ability to exploit quautum superposition and quauntum parallelism.
 
