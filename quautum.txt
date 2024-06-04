@@ -122,6 +122,13 @@ Q6. what are advancements have been made to original HHL algorithm since its inc
 ##qubit connectivity:ability of qubits tio interact and exchange info, communicate and Perform operations,
 ##high qubit connectivity:any pair of qubits can directly interact , allowing multi qubit gates and entangling operations.
 
+The government of India announced National Quautum Mission which plans to seed,nurture and scale up industrial and scieintific R and D and create a vibrant and innovative ecosystem to quautum technology with $730 million funding.
+Quautum Computing --> 6 companies
+Quauntum Communication --> 2 companies
+
+Quauntum communication: is secure transfer of quautum info across distances and ensure security.
+Quautum Sensing: new generation of sensors based on quautum systems that provide measurements of various quauntities such as em fields , gravity ,time that are orders of magnitude more sensitive than classical sensors.
+
 
 
 
