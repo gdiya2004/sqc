@@ -128,10 +128,14 @@ Quauntum Communication --> 2 companies
 
 Quauntum communication: is secure transfer of quautum info across distances and ensure security.
 Quautum Sensing: new generation of sensors based on quautum systems that provide measurements of various quauntities such as em fields , gravity ,time that are orders of magnitude more sensitive than classical sensors.
+Topography: what properties of things remains same after you change shape.
+example: mug and doughnut are logically same as they has single hole in it. They are geometrically different but topographical same.
+Quautum Computers are built from physical features of electrons and are sensitive to noise but MICROSOFT is trying to buil;d therir qubits from topologicaal properties which give them extra layer of p[rotection from noise.
+NOise is just stray energy hitting quautum computer can be phone signal or wifi signal or background radiation or heaat energy not just sound noise.
+Topological Qubit-->Majorana Zero Mode or Majorana Particle
 
-
-
-
+Majorana Particle: theoritical particle has specific propperties like anti particle. made by microsoft are quasi particles with topological properties
+If you get right group of atoms together in a right configuration the electrons of those atoms behave such as there is another kind of particle that is quasi-particle(electrone hole) has same property as real particle. PProperties come from collective behvior of electrons.
 
 
 
